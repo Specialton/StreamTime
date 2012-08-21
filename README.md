@@ -6,6 +6,8 @@ An online opensource time management system for non business time scheduling foc
 #Purpose#
 This time management system is to help manage time from each role's perspective across the different organizations involved.   From each perspective, StreamTime will manage the information sharing via an online GUI, as well as notifications via appropriate communication and social media channels.
 
+---
+
 ### ALL sizes ###
 
 
@@ -55,7 +57,10 @@ Requirements
   Notification
     Personal schedule notification via email (possibly text/social media)
 Considerations
+  Incentives
+    For increased number of shifts
 
+---
 
 ### LARGE venues ###
 
@@ -88,6 +93,7 @@ I
 R
 C
 
+---
 
 1. have a bunch of tasks/time slots that need to be filled
 1. have a bunch of individuals with different schedules that need to cover all the tasks/timeslots
@@ -128,3 +134,6 @@ People (attempting to personalize this approach as much as possible)
           - invoicing for paycheck
 
 All three will have considerations for typical organization trees and positions.
+
+
+Milestones for Vol
