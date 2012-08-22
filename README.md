@@ -3,7 +3,7 @@ StreamTime
 
 An online opensource time management system for non business time scheduling focused on solutions centered around situations and time focused for each participant.
 
-#Purpose#
+# Purpose #
 This time management system is to help manage time from each role's perspective across the different organizations involved.   From each perspective, StreamTime will manage the information sharing via an online GUI, as well as notifications via appropriate communication and social media channels.
 
 ---
@@ -12,6 +12,7 @@ This time management system is to help manage time from each role's perspective 
 
 
 ###Visitor###
+=======
 Interface
   Communication
     Between org and public: social media
@@ -26,6 +27,7 @@ Considerations
   The Visitor is who sets the tasks, shifts, and ultimately the different fulfillment requirements.
 
 ###Host###
+======
 Interface
   Planning
       Incentives should be calculated and timelined for order/distribution/etc
@@ -39,6 +41,7 @@ Considerations
     Upon changes, an online anonymized ID for displaying schedules with potentially sensitive data
 
 
+<<<<<<< HEAD
 ###People###
 Interface
   Signup
@@ -76,6 +79,8 @@ R
 C
   Change is iminent, especially frequently and after posted deadlines to accomodate ongoing changes.  The notification approach should accomodate the People's 
 ###People###
+=======
+
 I
 R
 C
@@ -109,31 +114,34 @@ So far I ultimately believe every situation includes a Host, a Visitor, and peop
 Some features that I would like to address would be:
 
 Visitor  (must be presented in a fashion to explain the capabilities of the program , and some form of ticket system to add functionality that doesn't exits)
-    - Planning capabilities
-           - personel counts
-           - shift counts
-           - personel costs
-           - breaks/lunches/downtime considerations
-           - cost(s)
-                 - promo/thank you/trinket/tchotchkes 
+
+* Planning capabilities
+  * personel counts
+  * shift counts
+  * personel costs
+  * breaks/lunches/downtime considerations
+  * cost(s)
+    * promo/thank you/trinket/tchotchkes 
 
 Host - (ultimately trying to minimize the hours put in to manage the different needs of people and shifts in scheduling when an anomaly is encountered)
-    from a high level postion: (this would benefit professors and the like)
-        - if you would like to schedule a once a week meeting with X number of people, this would allow those people to give possible times, and if people include some flexible prioritized time slots, then the scheduler would be able to schedule the most people without it being first come first serve reply.
-   - collection
-         - of peoples shift preference
-         - scheduled vs needed positions (attrition)
-   - distribution of schedules to people both scheduled and emergency via text/email/phone/phone tree            
-   - grouping of similar tasks
+
+* from a high level postion: (this would benefit professors and the like)
+  * if you would like to schedule a once a week meeting with X number of people, this would allow those people to give possible times, and if people include some flexible prioritized time slots, then the scheduler would be able to schedule the most people without it being first come first serve reply.
+* collection
+     * of peoples shift preference
+     * scheduled vs needed positions (attrition)
+* distribution of schedules to people both scheduled and emergency via text/email/phone/phone tree            
+* grouping of similar tasks
 
 People (attempting to personalize this approach as much as possible)
-    - from a volunteer position:
-         - A view to see open time slots and postions, including any hierarchal position structures (team lead/captain, worker, info, find raiser)
-         - a short survey that would help you determine which area is most likely fitted to what you want/skilled at
-         - priority/scheduled vs backup shifts
-     - from a paid perspective
-          - clock/check in/out for timekeeping
-          - invoicing for paycheck
+
+* from a volunteer position:
+  * A view to see open time slots and postions, including any hierarchal position structures (team lead/captain, worker, info, find raiser)
+  * a short survey that would help you determine which area is most likely fitted to what you want/skilled at
+  * priority/scheduled vs backup shifts
+* from a paid perspective
+  * clock/check in/out for timekeeping
+  * invoicing for paycheck
 
 All three will have considerations for typical organization trees and positions.
 
