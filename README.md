@@ -74,13 +74,14 @@ This time management system is to help manage time from each role's perspective 
 * I
 * R
 * C
+
 ###Manager###
 * I
 * R
 * C
   * Change is iminent, especially frequently and after posted deadlines to accomodate ongoing changes.  The notification approach should accomodate the People's 
-###Staff###
 
+###Staff###
 * I
 * R
 * C
@@ -91,10 +92,12 @@ This time management system is to help manage time from each role's perspective 
 * I
 * R
 * C
+
 ###Manager###
 * I
 * R
 * C
+
 ###Staff###
 * I
 * R
