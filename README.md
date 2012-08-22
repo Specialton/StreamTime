@@ -11,8 +11,8 @@ This time management system is to help manage time from each role's perspective 
 ## ALL sizes ##
 
 
-###Visitor###
-=======
+###Client###
+======
 Interface
   Communication
     Between org and public: social media
@@ -26,7 +26,7 @@ Requirements
 Considerations
   The Visitor is who sets the tasks, shifts, and ultimately the different fulfillment requirements.
 
-###Host###
+###Manager###
 ======
 Interface
   Planning
@@ -40,9 +40,8 @@ Considerations
   Notification
     Upon changes, an online anonymized ID for displaying schedules with potentially sensitive data
 
-
-<<<<<<< HEAD
-###People###
+###Staff###
+======
 Interface
   Signup
     Information
@@ -61,6 +60,8 @@ Interface
 Requirements
   Notification
     Personal schedule notification via email (possibly text/social media)
+    Cancelation at any time, and notify MGMT
+    staff must confirm schedule, and be notified if not confirmed
 Considerations
   Incentives
     For increased number of shifts, and milemarkers, these should be viewable
@@ -69,17 +70,16 @@ Considerations
 
 ## LARGE venues ##
 
-###Visitor###
+###Client###
 I
 R
 C
-###Host###
+###Manager###
 I
 R
 C
   Change is iminent, especially frequently and after posted deadlines to accomodate ongoing changes.  The notification approach should accomodate the People's 
-###People###
-=======
+###Staff###
 
 I
 R
@@ -87,15 +87,15 @@ C
 
 ## small venues ##
 
-###Visitor###
+###Client###
 I
 R
 C
-###Host###
+###Manager###
 I
 R
 C
-###People###
+###Staff###
 I
 R
 C
