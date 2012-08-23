@@ -11,8 +11,10 @@ This time management system is to help manage time from each role's perspective 
 ## ALL sizes ##
 
 
-###Client###
-======
+### Client ###
+
+---
+
 * Interface
   * Communication
     * Between org and public: social media
@@ -26,8 +28,10 @@ This time management system is to help manage time from each role's perspective 
 * Considerations
   * The Client is who sets the tasks, shifts, and ultimately the different fulfillment requirements.
 
-###Manager###
-======
+### Manager ###
+
+---
+
 * Interface
   * Planning
       * Incentives should be calculated and timelined for order/distribution/etc
@@ -40,8 +44,10 @@ This time management system is to help manage time from each role's perspective 
   * Notification
     * Upon changes, an online anonymized ID for displaying schedules with potentially sensitive data
 
-###Staff###
-======
+### Staff ###
+
+---
+
 * Interface
   * Signup
     * Information
@@ -70,35 +76,37 @@ This time management system is to help manage time from each role's perspective 
 
 ## LARGE venues ##
 
-###Client###
+### Client ###
+
 * I
 * R
 * C
 
-###Manager###
+### Manager ###
 * I
 * R
 * C
   * Change is iminent, especially frequently and after posted deadlines to accomodate ongoing changes.  The notification approach should accomodate the People's 
 
-###Staff###
+### Staff###
 * I
 * R
 * C
 
 ## small venues ##
 
-###Client###
+### Client ###
+
 * I
 * R
 * C
 
-###Manager###
+### Manager ###
 * I
 * R
 * C
 
-###Staff###
+### Staff ###
 * I
 * R
 * C
