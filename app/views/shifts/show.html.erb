@@ -1,0 +1,25 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Job:</b>
+  <%= @shift.job %>
+</p>
+
+<p>
+  <b>Start datetime:</b>
+  <%= @shift.start_datetime %>
+</p>
+
+<p>
+  <b>End datetime:</b>
+  <%= @shift.end_datetime %>
+</p>
+
+<p>
+  <b>Location:</b>
+  <%= @shift.location %>
+</p>
+
+
+<%= link_to 'Edit', edit_shift_path(@shift) %> |
+<%= link_to 'Back', shifts_path %>

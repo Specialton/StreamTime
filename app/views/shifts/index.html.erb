@@ -1,0 +1,29 @@
+<h1>Listing shifts</h1>
+
+<table>
+  <tr>
+    <th>Job</th>
+    <th>Start datetime</th>
+    <th>End datetime</th>
+    <th>Location</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @shifts.each do |shift| %>
+  <tr>
+    <td><%= shift.job %></td>
+    <td><%= shift.start_datetime %></td>
+    <td><%= shift.end_datetime %></td>
+    <td><%= shift.location %></td>
+    <td><%= link_to 'Show', shift %></td>
+    <td><%= link_to 'Edit', edit_shift_path(shift) %></td>
+    <td><%= link_to 'Destroy', shift, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Shift', new_shift_path %>
