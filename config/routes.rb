@@ -1,4 +1,6 @@
 StreamTime::Application.routes.draw do
+  resources :jobs
+
   resources :locations
 
   resources :shirt_sizes
