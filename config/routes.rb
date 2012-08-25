@@ -1,4 +1,6 @@
 StreamTime::Application.routes.draw do
+  resources :availablities
+
   resources :assignment_statuses
 
   resources :duties

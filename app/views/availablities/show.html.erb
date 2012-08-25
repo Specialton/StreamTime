@@ -1,0 +1,15 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Start datetime:</b>
+  <%= @availablity.start_datetime %>
+</p>
+
+<p>
+  <b>End datetime:</b>
+  <%= @availablity.end_datetime %>
+</p>
+
+
+<%= link_to 'Edit', edit_availablity_path(@availablity) %> |
+<%= link_to 'Back', availablities_path %>
