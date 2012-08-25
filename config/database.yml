@@ -6,7 +6,7 @@
 development:
   adapter: mysql2
   encoding: utf8
-  database: blog_development
+  database: streamtime
   pool: 5
   username: root
   password: 8KXt6L4fB7rzvjmQMw9J

@@ -1,0 +1,40 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Street address 1:</b>
+  <%= @contact_info.street_address_1 %>
+</p>
+
+<p>
+  <b>Street address 2:</b>
+  <%= @contact_info.street_address_2 %>
+</p>
+
+<p>
+  <b>City:</b>
+  <%= @contact_info.city %>
+</p>
+
+<p>
+  <b>State:</b>
+  <%= @contact_info.state %>
+</p>
+
+<p>
+  <b>Zip:</b>
+  <%= @contact_info.zip %>
+</p>
+
+<p>
+  <b>Phone:</b>
+  <%= @contact_info.phone %>
+</p>
+
+<p>
+  <b>Email:</b>
+  <%= @contact_info.email %>
+</p>
+
+
+<%= link_to 'Edit', edit_contact_info_path(@contact_info) %> |
+<%= link_to 'Back', contact_infos_path %>

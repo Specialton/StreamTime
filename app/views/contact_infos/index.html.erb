@@ -1,0 +1,35 @@
+<h1>Listing contact_infos</h1>
+
+<table>
+  <tr>
+    <th>Street address 1</th>
+    <th>Street address 2</th>
+    <th>City</th>
+    <th>State</th>
+    <th>Zip</th>
+    <th>Phone</th>
+    <th>Email</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @contact_infos.each do |contact_info| %>
+  <tr>
+    <td><%= contact_info.street_address_1 %></td>
+    <td><%= contact_info.street_address_2 %></td>
+    <td><%= contact_info.city %></td>
+    <td><%= contact_info.state %></td>
+    <td><%= contact_info.zip %></td>
+    <td><%= contact_info.phone %></td>
+    <td><%= contact_info.email %></td>
+    <td><%= link_to 'Show', contact_info %></td>
+    <td><%= link_to 'Edit', edit_contact_info_path(contact_info) %></td>
+    <td><%= link_to 'Destroy', contact_info, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Contact info', new_contact_info_path %>
