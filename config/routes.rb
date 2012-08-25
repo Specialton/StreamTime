@@ -1,4 +1,6 @@
 StreamTime::Application.routes.draw do
+  resources :job_types
+
   resources :jobs
 
   resources :locations
