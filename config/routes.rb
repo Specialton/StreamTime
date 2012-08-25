@@ -1,4 +1,6 @@
 StreamTime::Application.routes.draw do
+  resources :shirt_sizes
+
   resources :availablities
 
   resources :assignment_statuses
