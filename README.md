@@ -112,6 +112,32 @@ This time management system is to help manage time from each role's perspective 
 1. system assigns tasks to people based on their availability
 1. system emails each volunteer witht their tasks
 
+---
+
+Include typical interactions with variants
+  
+###Signup###
+  Shift/Event postings
+  Availiability
+  Unique event ID - (DDMMLST4 - Bday DD + Bday MM + last 4 of SSN)
+
+###Distribution/Confirmation of Schedule###
+  If online posting, have 
+  Prohibited items or security information should be distributed, and health/weather relate infromation
+###change of schedules###
+
+
+###Reconfirmation###
+
+
+
+
+###a###
+
+###a###
+
+---
+
 So far I ultimately believe every situation includes a Host, a Visitor, and people.   the host would include everyone that is involved at the particular location that the event occurs.   The visitor is the group/people/person that wants to have the event, and the people are those that either are paid or volunteer, and do the actual work (including mgmt of the people).  So people and roles obviously can overlap with smaller scaled events, and this would be accomodated, but ultimately these are the only stakeholders I can identify.  If you can identify others, please let me know)
 
 Some features that I would like to address would be:
