@@ -1,4 +1,6 @@
 StreamTime::Application.routes.draw do
+  devise_for :staffers
+
   get "home/index"
 
   resources :shift_assignments
