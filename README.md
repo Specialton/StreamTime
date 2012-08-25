@@ -135,7 +135,7 @@ Include typical interactions with variants
 ###change of schedules###
 
 
-###Reconfirmation###
+### Reconfirmation ###
 
 
 
@@ -182,5 +182,65 @@ People (attempting to personalize this approach as much as possible)
 
 All three will have considerations for typical organization trees and positions.
 
-
 Milestones for Vol
+
+## Models ##
+---
+
+Future
+
+### Attendee ### 
+* personalia
+
+---
+
+
+### Event ###
+* name
+* location
+* start_date
+* end_date
+* shifts
+
+### Location ###
+* name
+* street adddress  (several fields)
+
+### Shift ###
+* job
+* start_time
+* end_time
+* location
+
+### Job ###
+* job_type
+* duties
+
+### JobType ###
+* name
+
+### Duty ###
+* description
+
+### ShiftAssignment ###
+* shift
+* staffer
+* assignment_status
+
+### AssignmentStatus ###
+* name  <!-- Pending confirmed etc... -->
+
+### Staffer ### 
+* anonymous_id  <!-- MMDDL4SS -->
+* personalia
+* availabilities
+* preferred_shifts
+* shirt_size
+
+### Availablity ###
+* start_datetime
+* end_datetime
+
+### ShirtSize ###
+* size
+* gender
