@@ -1,0 +1,2 @@
+module ShiftAssignmentsHelper
+end

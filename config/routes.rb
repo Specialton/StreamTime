@@ -1,4 +1,6 @@
 StreamTime::Application.routes.draw do
+  resources :shift_assignments
+
   resources :shifts
 
   resources :job_types

@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120825190041) do
+ActiveRecord::Schema.define(:version => 20120825190126) do
 
   create_table "assignment_statuses", :force => true do |t|
     t.string   "name"
@@ -77,6 +77,18 @@ ActiveRecord::Schema.define(:version => 20120825190041) do
   end
 
   add_index "locations", ["contact_info_id"], :name => "index_locations_on_contact_info_id"
+
+  create_table "shift_assignments", :force => true do |t|
+    t.integer  "shift_id"
+    t.integer  "staffer_id"
+    t.integer  "assignment_status_id"
+    t.datetime "created_at",           :null => false
+    t.datetime "updated_at",           :null => false
+  end
+
+  add_index "shift_assignments", ["assignment_status_id"], :name => "index_shift_assignments_on_assignment_status_id"
+  add_index "shift_assignments", ["shift_id"], :name => "index_shift_assignments_on_shift_id"
+  add_index "shift_assignments", ["staffer_id"], :name => "index_shift_assignments_on_staffer_id"
 
   create_table "shifts", :force => true do |t|
     t.integer  "job_id"
