@@ -1,4 +1,6 @@
 class EventsController < ApplicationController
+  before_filter :authenticate_staffer!, :except => [:show, :index]
+
   # GET /events
   # GET /events.json
   def index

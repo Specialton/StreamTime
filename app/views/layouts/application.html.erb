@@ -7,10 +7,17 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-
+<div id="staffer_nav">
+  <% if staffer_signed_in? %>
+    Signed in as <%= current_staffer.email %>. Not you?
+    <%= link_to "Sign out", destroy_staffer_session_path, :method => :delete %>
+  <% else %>
+    <%= link_to "Sign up", new_staffer_registration_path %> or <%= link_to "sign in", new_staffer_session_path %>
+  <% end %>
+</div>
 <!-- Chrisfrisina -->
-	<p class="notice"><%= notice %></p>
-	<p class="alert"><%= alert %></p>
+<p class="notice"><%= notice %></p>
+<p class="alert"><%= alert %></p>
 
 <%= yield %>
 

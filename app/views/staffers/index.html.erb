@@ -1,0 +1,23 @@
+<h1>Listing staffers</h1>
+
+<table>
+  <tr>
+    <th>Fname</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @staffers.each do |staffer| %>
+  <tr>
+    <td><%= staffer.fname %></td>
+    <td><%= link_to 'Show', staffer %></td>
+    <td><%= link_to 'Edit', edit_staffer_path(staffer) %></td>
+    <td><%= link_to 'Destroy', staffer, method: :delete, data: { stafferirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Staffer', new_staffer_path %>

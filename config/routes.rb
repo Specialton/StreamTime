@@ -1,5 +1,9 @@
 StreamTime::Application.routes.draw do
-  devise_for :staffers
+  devise_for :staffers, :controllers => { :registrations => "registrations" }
+
+  scope "/admin" do
+    resources :staffers
+  end
 
   get "home/index"
 
