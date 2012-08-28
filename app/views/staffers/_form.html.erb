@@ -15,6 +15,23 @@
     <%= f.label :fname %><br />
     <%= f.text_field :fname %>
   </div>
+  <div class="field">
+    <%= f.label :mi %><br />
+    <%= f.text_field :mi %>
+  </div>
+  <div class="field">
+    <%= f.label :lname %><br />
+    <%= f.text_field :lname %>
+  </div>
+  <div class="field">
+    <%= f.label :suffix %><br />
+    <%= f.text_field :suffix %>
+  </div>
+
+  <%= f.fields_for :contact_infos do |builder| %>
+    <%= render "contact_info_fields", :f => builder %>
+  <% end %>
+
   <div class="actions">
     <%= f.submit %>
   </div>

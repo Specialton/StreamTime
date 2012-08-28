@@ -25,11 +25,11 @@ class StaffersController < ApplicationController
   # GET /staffers/new.json
   def new
     @staffer = Staffer.new
-
     respond_to do |format|
       format.html # new.html.erb
       format.json { render json: @staffer }
     end
+    contact_info = @staffer.contact_infos.build
   end
 
   # GET /staffers/1/edit
