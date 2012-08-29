@@ -27,6 +27,14 @@
     <%= f.label :suffix %><br />
     <%= f.text_field :suffix %>
   </div>
+  <div class="field">
+    <%= f.label :password %><br />
+    <%= f.password_field :password %>
+  </div>
+  <div class="field">
+    <%= f.label :email %><br />
+    <%= f.email_field :email %>
+  </div>
 
   <%= f.fields_for :contact_infos do |builder| %>
     <%= render "contact_info_fields", :f => builder %>

@@ -29,7 +29,6 @@ class StaffersController < ApplicationController
       format.html # new.html.erb
       format.json { render json: @staffer }
     end
-    contact_info = @staffer.contact_infos.build
   end
 
   # GET /staffers/1/edit
