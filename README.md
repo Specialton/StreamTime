@@ -194,6 +194,12 @@ ___
 ### Incomplete thoughts / requirements: ###
   * All four will have considerations for typical organization trees and positions.
   * grouping of similar tasks
+  * Time buffers on shifts
+  * Compare positions, employees, shifts, locations, and overlook/meta data.
+  * Monitor deletions, reassignments, other events
+  * job roles and functions in distribution packets
+  * Enhancement
+  * Those who want to work more hours
 
 ---
 
